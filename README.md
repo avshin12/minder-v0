@@ -1,1 +1,1 @@
-# minder-v0
+# mynder
