@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1 id="movieTitle"></h1>
-    <div>
-        Release Date: <span id="releaseDate"></span>
+    <div class="wrapper">
+        <header class="header">
+            <input type="text" id="search" class="search" />
+            <button onclick="search()" class="btn">Search</button>
+            <button onclick="goNext()" class="btn">Next</button>
+        </header>
+
+
+        <section class="movieSection">
+
+
+        </section>
+
     </div>
-    <button onclick="goNext()">Next</button>
-    <hr/>
-    <input type="text" id="search"/>
-    <button onclick="search()">Search</button>
-    <script src="./static/apiService.js">    </script>
+
+    <script src="./public/apiService.js">    </script>
 </body>
+
 </html>
